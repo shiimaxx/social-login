@@ -20,7 +20,7 @@ module.exports = {
           to: `${__dirname}/public`,
         },
         {
-          from: `${__dirname}/src/css`,
+          from: `${__dirname}/src/style.css`,
           to: `${__dirname}/public`,
         },
       ]

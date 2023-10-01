@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ログイン状態が変化したときの処理
   onAuthStateChanged(auth, (user) => {
     if (!user) {
-      witndow.location.href = 'login.html';
+      window.location.href = 'login.html';
       return;
     }
 
