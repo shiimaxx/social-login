@@ -62,7 +62,7 @@ const registerEmail = async (event) => {
 };
 
 // メール送信ボタン
-document.getElementById(emailForm).addEventListener('submit', registerEmail);
+document.getElementById('emailForm').addEventListener('submit', registerEmail);
 
 // ログアウトボタン
 document.getElementById('logout').addEventListener('click', logout);
